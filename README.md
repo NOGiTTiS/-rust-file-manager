@@ -10,13 +10,25 @@ directory entries and prints the path of each file or subdirectory.
 
 **Instructions**
 
-1. Save the code as a Rust file (e.g., `list_dir.rs`).
-2. Open a terminal window and navigate to the directory containing the saved file.
-3. Run the following command to compile and execute the code:
+Use this command in the terminal:
 
-   ```bash
-   rustc list_dir.rs && ./list_dir
-   ```
+```bash
+git clone https://github.com/warathepj/rust-file-manager.git
+```
+
+```bash
+cd rust-file-manager
+```
+
+**Customization**
+
+- Replace `"D:/path/to/dir"` with the actual path to the directory you want to list.
+- You can modify the printing format within the `println!` statements to suit your needs.
+- Use this command in the terminal:
+
+  ```bash
+  cargo run
+  ```
 
 **Explanation**
 
@@ -30,10 +42,5 @@ directory entries and prints the path of each file or subdirectory.
   - **`println!("Directory: {}", path.display());`** If it's a directory, prints the path with a "Directory:" prefix.
 - **`else { ... }`** If the entry is not a directory (i.e., a file), the following code executes:
   - **`println!("{}", path.display());`** Prints the path of the file.
-
-**Customization**
-
-- Replace `"D:/path/to/dir"` with the actual path to the directory you want to list.
-- You can modify the printing format within the `println!` statements to suit your needs.
 
 I hope this comprehensive README.md file is helpful!
