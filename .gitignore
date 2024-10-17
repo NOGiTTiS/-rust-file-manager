@@ -1,5 +1,7 @@
 /target
 
 main1.rs
+main2.rs
 *.txt
 prompt*.*
+README1.md
