@@ -1,7 +1,9 @@
 /target
-
+/unused
+/txt
 main1.rs
 main2.rs
+main3.rs
 *.txt
 prompt*.*
 README1.md
