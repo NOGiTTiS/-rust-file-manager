@@ -1,6 +1,6 @@
 # เลี้ยงกาแฟผู้พัฒนา
 
-!["Alt text"](https://warathepj.github.io/js-ai-gallery/public/image/promptpay-50.jpg)
+!["Alt text"](https://warathepj.github.io/js-ai-gallery/public/image/promptpay-30.png)
 
 # File Management System
 
